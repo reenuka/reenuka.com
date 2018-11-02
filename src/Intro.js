@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Intro extends Component {
-    render() {
-        return (
-            <div>
-                Intro
-            </div>
-        );
-    }
+const Intro = (props) => {
+    return (
+        <div>
+            Intro
+        </div>
+    );
 }
 
 export default Intro;
