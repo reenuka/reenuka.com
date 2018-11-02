@@ -1,9 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const Blog = (props) => {
+    const StyledBlog = styled.div`
+        color: orange;
+        font-size: 36px;
+    `
+
     return (
         <div>
-            Blog
+            <StyledBlog>
+                Blog
+            </StyledBlog>
         </div>
     );
 }

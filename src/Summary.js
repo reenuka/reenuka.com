@@ -1,9 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const Summary = (props) => {
+    const StyledSummary = styled.div`
+        color: blue;
+        font-size: 36px;
+    `
+
     return (
         <div>
-            Summary
+            <StyledSummary>
+                Summary
+            </StyledSummary>
         </div>
     );
 }
