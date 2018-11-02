@@ -3,6 +3,8 @@ import Header from './Header';
 import Footer from './Footer';
 import Intro from './Intro';
 import Summary from './Summary';
+import Blog from './Blog';
+import Portfolio from './Portfolio';
 
 class Lobby extends Component {
     render() {
@@ -12,6 +14,8 @@ class Lobby extends Component {
                 <Header />
                 <Intro />
                 <Summary />
+                <Blog />
+                <Portfolio />
                 <Footer />
             </div>
         );
