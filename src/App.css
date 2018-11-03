@@ -1,5 +1,41 @@
 body {
-    background-color: black;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
     font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: white;
+    overflow: scroll;
+}
+
+.panel {
+    background-color: lightgray;
+    opacity: 0.5;
+
+    width: 70vw;
+    height: 100vh;
+    
+    z-index: -999;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.copyright {
+    background-color: white;
+    opacity: 0.8;
+    color: grey;
+    height: 21px;
+    position: absolute;
+    bottom: 0;
+    right: 15vw;
+    padding: 2px;
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 25px;
 }

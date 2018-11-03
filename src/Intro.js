@@ -5,6 +5,7 @@ const Intro = (props) => {
     const StyledIntro = styled.div`
         color: green;
         font-size: 36px;
+        overflow: auto;
     `
 
     return (

@@ -11,8 +11,8 @@ import Portfolio from './Portfolio';
 class App extends Component {
   render() {
     return (
-      <div>
-        Hi, it's me, Reenuka.
+      <div className>
+        <div className="panel"/>
         <Lobby />
         {/* <Router>
           <Switch>
@@ -23,6 +23,10 @@ class App extends Component {
             <Route path="/portfolio" component={Portfolio} />
           </Switch>
         </Router> */}
+
+        <div className="copyright">
+          COPYRIGHT © 2018 - REENUKA SARIKA RĀMPHAL
+        </div>
       </div>
     );
   }

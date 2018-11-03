@@ -3,14 +3,15 @@ import styled from 'styled-components'
 
 const Header = (props) => {
     const StyledHeader = styled.div`
-        color: gold;
-        font-size: 36px;
+    .header {
+        width: 70vw;
+    }
     `
 
     return (
         <div>
             <StyledHeader>
-                Header
+                <img className="header" src={require('./header.jpg')} alt="test"/>
             </StyledHeader>
         </div>
     );

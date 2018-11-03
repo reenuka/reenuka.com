@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Navigator from './Navigator';
+
 const Footer = (props) => {
     const StyledFooter = styled.div` 
         color: purple;
@@ -11,9 +13,10 @@ const Footer = (props) => {
         flex-direction: column;
         justify-content: space-around;
 
-        width: 1000px;
+        margin: auto;
+        width: 70vw;
         height: 200px;
-        border: 5px solid #8AC007;
+        border: 1px solid white;
 
         .row {
             display: flex;
@@ -30,16 +33,11 @@ const Footer = (props) => {
             color: yellow;
             text-align: right;
         }
-        
-        .copyright {
-            color: lavender;
-            font-size: 10px;
-        }
     `
 
     return (
         <div>
-            <StyledFooter className="test">
+            <StyledFooter className="footer-container">
                 <div>
                     Footer Navigation
                 </div>
@@ -52,11 +50,8 @@ const Footer = (props) => {
                         Something?
                     </div>
                 </div>
-
-                <div className="copyright">
-                    COPYRIGHT © 2018 - REENUKA SARIKA RĀMPHAL
-                </div>
             </StyledFooter>
+
         </div>
     );
 }
